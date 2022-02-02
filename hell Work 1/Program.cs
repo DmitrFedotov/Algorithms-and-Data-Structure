@@ -21,11 +21,7 @@ namespace hell_Work_1
                 Class2 link = new Class2();
                 link.doo();
             }
-            else if(numberr == 3)
-            {
-                Class3 chek = new Class3();
-                chek.qoo();
-            }
+            
             
         }
     }
