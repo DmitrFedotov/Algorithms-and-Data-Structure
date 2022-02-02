@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DZ1._2
+namespace hell_Work_2
 {
     internal class Program
     {
