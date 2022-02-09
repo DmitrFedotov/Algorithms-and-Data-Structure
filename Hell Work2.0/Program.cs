@@ -9,6 +9,9 @@ namespace Hell_Work2._0
         static void Main(string[] args)
         {
             Console.WriteLine("Введи число от 1 до 3 , что бы начать проверку");
+            Console.WriteLine("1. PointClass");
+            Console.WriteLine("2. PointStruct");
+            Console.WriteLine("PointDistanceDouble");
 
             int numberr = Convert.ToInt32(Console.ReadLine());
 
