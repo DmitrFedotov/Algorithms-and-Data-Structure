@@ -8,7 +8,7 @@ namespace hell_Work_2
 {
     internal class Program
     {
-        static void Main(string[] args)
+        public static void option ()
         {
 
             int[] inputArray = { 11110, 55, 15 };

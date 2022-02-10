@@ -6,4 +6,8 @@
     <RootNamespace>hell_Work_1</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.1" />
+  </ItemGroup>
+
 </Project>
