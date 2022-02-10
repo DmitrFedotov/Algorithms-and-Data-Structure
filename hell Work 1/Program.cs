@@ -8,6 +8,11 @@ using BenchmarkDotNet.Running;
 using BenchmarkDotNet.Exporters;
 using BenchmarkDotNet.Analysers;
 using BenchmarkDotNet.Diagnosers;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 namespace hell_Work_1
 {
@@ -19,6 +24,7 @@ namespace hell_Work_1
             Console.WriteLine("1. Проверить является ли число простым или сложным");
             Console.WriteLine("2. решение числа Фибоначчи");
             Console.WriteLine("3. Benchmark Test");
+            Console.WriteLine("4. Работа со списками");
             int numberr = Convert.ToInt32(Console.ReadLine());
           
             if (numberr == 1)
@@ -36,6 +42,11 @@ namespace hell_Work_1
                 BenchmarkClass link = new BenchmarkClass();
                 BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
 
+            }
+            else if (numberr == 4)
+            {
+                ListFull go = new ListFull();
+                go.ProgramList();
             }
 
 
