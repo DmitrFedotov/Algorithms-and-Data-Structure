@@ -8,7 +8,7 @@ namespace hell_Work_1
 {
     class Class1
     {
-        public void foo()
+        public void SimpleComplexNumber()
         {
           bool isRun = true;
             while (isRun)

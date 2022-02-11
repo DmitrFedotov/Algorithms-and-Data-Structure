@@ -8,7 +8,7 @@ namespace hell_Work_1
 {
     class Class2
     {
-        public void doo() 
+        public void Fib() 
         {
             Console.WriteLine("Выберите вывод:");
             Console.WriteLine("1. Вывод без рекурсии");

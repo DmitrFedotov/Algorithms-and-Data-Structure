@@ -25,21 +25,22 @@ namespace hell_Work_1
             Console.WriteLine("2. решение числа Фибоначчи");
             Console.WriteLine("3. Benchmark Test");
             Console.WriteLine("4. Работа со списками");
+            Console.WriteLine("5. Дерево поиска с операциями вставки");
             int numberr = Convert.ToInt32(Console.ReadLine());
           
             if (numberr == 1)
             {
                 Class1 linq = new Class1();
-                linq.foo();
+                linq.SimpleComplexNumber();
             }
             else if (numberr == 2)
             {
                 Class2 link = new Class2();
-                link.doo();
+                link.Fib();
             }
             else if (numberr == 3)
             {
-                BenchmarkClass link = new BenchmarkClass();
+                BenchmarkClassWork2 link = new BenchmarkClassWork2();
                 BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
 
             }
@@ -47,6 +48,13 @@ namespace hell_Work_1
             {
                 ListFull go = new ListFull();
                 go.ProgramList();
+            }
+            else if (numberr == 5)
+            {
+                Console.WriteLine("Нажмите 1");
+                Work4 link = new Work4();
+                BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
+
             }
 
 

@@ -15,7 +15,7 @@ using BenchmarkDotNet.Diagnosers;
 
 namespace hell_Work_1
 {
-    public class BenchmarkClass
+    public class BenchmarkClassWork2
     {
 
 
@@ -30,7 +30,7 @@ namespace hell_Work_1
 
         /// <summary>Массив содержащий случайные float значения координат</summary>
         private int[] randomIntCoordinates = new int[ELEMENTS];
-        /// <summary>Массив содержащий случайные float значения координат</summary>
+        /// <summary>Массив содержащий случайные long значения координат</summary>
         private long[] randomLongCoordinates = new long[ELEMENTS];
         /// <summary>Массив содержащий случайные float значения координат</summary>
         private float[] randomFloatCoordinates = new float[ELEMENTS];
@@ -74,7 +74,7 @@ namespace hell_Work_1
         /// <summary>
         /// Конструктор заполняющий массив координат случайной информацией
         /// </summary>
-        public BenchmarkClass()
+        public BenchmarkClassWork2()
         {
             ///Заполняем массив случайными числами
             Random rnd = new Random();
