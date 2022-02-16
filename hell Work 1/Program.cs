@@ -12,7 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using hell_Work_1.work4;
+using Lesson_04_02;
 
 namespace hell_Work_1
 {
@@ -54,6 +55,15 @@ namespace hell_Work_1
                 Console.WriteLine("Нажмите 1");
                 Work4 link = new Work4();
                 BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
+
+            }
+            else if (numberr == 6)
+            {
+                ZapuskWork4 link = new ZapuskWork4();
+                link.Drevo();
+
+
+
 
             }
 
