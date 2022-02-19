@@ -1,19 +1,6 @@
-﻿using System;
-using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Columns;
-using BenchmarkDotNet.Jobs;
-using BenchmarkDotNet.Configs;
-using BenchmarkDotNet.Loggers;
-using BenchmarkDotNet.Running;
-using BenchmarkDotNet.Exporters;
-using BenchmarkDotNet.Analysers;
-using BenchmarkDotNet.Diagnosers;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using hell_Work_1.work4;
+﻿using BenchmarkDotNet.Running;
 using Lesson_04_02;
+using System;
 
 namespace hell_Work_1
 {
@@ -49,21 +36,11 @@ namespace hell_Work_1
             {
                 ListFull go = new ListFull();
                 go.ProgramList();
-            }
+            }           
             else if (numberr == 5)
             {
-                Console.WriteLine("Нажмите 1");
-                Work4 link = new Work4();
-                BenchmarkSwitcher.FromAssembly(typeof(Program).Assembly).Run(args);
-
-            }
-            else if (numberr == 6)
-            {
-                ZapuskWork4 link = new ZapuskWork4();
-                link.Drevo();
-
-
-
+                Work go = new Work();
+                go.Derevo();
 
             }
 
